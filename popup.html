@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Compound Interest Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Compound Interest Calculator</h1>
+    <form id="calculator">
+      <label for="principal">Principal:</label>
+      <input type="number" id="principal" name="principal" required>
+      <br>
+      <label for="interestRate">Interest Rate:</label>
+      <input type="number" id="interestRate" name="interestRate" required>
+      <br>
+      <label for="compoundingPeriods">Compounding Periods:</label>
+      <input type="number" id="compoundingPeriods" name="compoundingPeriods" required>
+      <br>
+      <label for="timePeriod">Time Period:</label>
+      <input type="number" id="timePeriod" name="timePeriod" required>
+      <select name="timeUnit" id="timeUnit">
+        <option value="year">Year(s)</option>
+        <option value="month">Month(s)</option>
+        <option value="week">Week(s)</option>
+        <option value="day">Day(s)</option>
+      </select>
+      <br>
+      <button type="submit">Calculate</button>
+      <button type="button" id="clear-btn" class="btn">Clear</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
