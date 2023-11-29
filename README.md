@@ -59,6 +59,60 @@ Usage:
 
 *To clear the input and output fields, click on the "Clear" button.
 
+<h1>Compound Interest Calculator Breakdown:</h1>
+
+ ### [YouTube Demonstration](https://youtu.be/zU0Tqr0Xg9U)
+
+<h2>Description</h2>
+ I created a Compound Interest Calculator using HTML, CSS, JavaScript, and JSON.
+The Compound Interest Calculator is a tool that allows you to calculate how much your investment will grow over time, taking into account the interest earned on both the principal and the interest earned in previous periods.
+<br />
+
+
+<h2>Languages and Utilities Used</h2>
+
+- <b>Visual Studio Code</b> 
+- <b>Javascript</b>
+- <b>.json</b>
+- <b>.css</b>
+- <b>.html</b>
+
+<h2>Environments Used </h2>
+
+- <b>MacOS Ventura 13.5.2</b> (Apple M1 Chip)
+
+<h2>Program walk-through:</h2>
+
+<p align="center">
+So, let's dive into the code. The HTML file contains the structure and content of the web page. It defines the various input fields and buttons needed to perform the calculations, and the div where the result will be displayed. The CSS file is used for styling and formatting the HTML content to make it visually appealing.
+: <br/>
+<img src="https://i.imgur.com/KyavTtA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  
 License:
 The Compound Interest Calculator extension is released under the MIT License. See the LICENSE file for more information.
 
@@ -66,3 +120,14 @@ Credits:
 The Compound Interest Calculator was created by Eric Gill.
 
 In conclusion, the Compound Interest Calculator is a simple yet useful tool for anyone looking to invest their money wisely.
+</p>
+
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
