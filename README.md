@@ -84,33 +84,34 @@ The Compound Interest Calculator is a tool that allows you to calculate how much
 <h2>Program walk-through:</h2>
 
 <p align="center">
-So, let's dive into the code. The HTML file contains the structure and content of the web page. It defines the various input fields and buttons needed to perform the calculations, and the div where the result will be displayed. The CSS file is used for styling and formatting the HTML content to make it visually appealing.
+So, let's dive into the code. The HTML file contains the structure and content of the web page. It defines the various input fields and buttons needed to perform the calculations, and the div where the result will be displayed
 : <br/>
 <img src="https://i.imgur.com/KyavTtA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />The CSS file is used for styling and formatting the HTML content to make it visually appealing
+:  <br/>
+<img src="https://i.imgur.com/fQQJGXj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next up, we have the JavaScript file, which is responsible for the functionality of the calculator. The event listener attached to the submit button triggers the calculation of the compound interest using the formula defined in the helper function: <br/>
+<img src="https://i.imgur.com/Rla3rTJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The clear button is used to reset all input fields, and if any of the input fields are invalid, the user is alerted to enter valid values
+:  <br/>
+<img src="https://i.imgur.com/2rfE2Ae.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lastly, the JSON file contains information about the Chrome extension. In particular, it specifies the name of the extension, the description, version, and permissions required by the extension:  <br/>
+<img src="https://i.imgur.com/IUpTf7S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+As for design choices, I debated whether or not to include the option to choose between different compounding periods such as daily, weekly, or monthly. I ultimately decided to include it since it provides users with greater flexibility in calculating their compound interest:  
+ <br/>
+<img src="https://i.imgur.com/BkeGezZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 
   
 License:
